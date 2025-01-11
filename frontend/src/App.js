@@ -5,7 +5,7 @@ function Message() {
 
     useEffect(() => {
         // Fetch the message from the Django backend
-        fetch('https://sample1-frontend.onrender.com/api/message/')
+        fetch('https://sample1-eq07.onrender.com/api/message/')
             .then(response => response.json())
             .then(data => {
                 setMessage(data.message);
